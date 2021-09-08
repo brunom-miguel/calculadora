@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.fundo {
+  background: linear-gradient(45deg, rgb(5, 5, 5), rgb(255, 0, 0));
+  height: 100vh;
+}
+
+h1 {
+  padding-top: 1rem;
+  text-align: center;
+  color: antiquewhite;
+}
+
+.calculadora {
+  background-color: rgb(5, 5, 5);
+  padding: 1rem;
+  border: solid 2px #000;
+  border-radius: 1rem;
+  text-align: center;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+h2 {
+  color: antiquewhite;
+  font-size: 1.25rem;
+}
+
+p {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  height: 2rem;
+  background-color: antiquewhite;
+  border-radius: 0.25rem;
+  margin: 1rem auto;
+  padding: 0 0.25rem;
+}
+
+.botoes {
+  border-radius: 50%;
+  height: 3rem;
+  width: 3rem;
+  border: none;
+
+  cursor: pointer;
+
+  transition: background 0.4s;
+}
+
+.laranja {
+  background-color: hsl(24, 100%, 50%);
+  color: antiquewhite;
+}
+
+.laranja:hover {
+  background-color: hsl(24, 100%, 70%);
+}
+
+.cinza {
+  background-color: hsl(0, 0%, 75%);
+}
+
+.cinza:hover {
+  background-color: hsl(0, 0%, 92%);
+}
+
+.grafite {
+  background-color: hsl(0, 0%, 13%);
+  color: antiquewhite;
+}
+
+.grafite:hover {
+  background-color: hsl(0, 0%, 30%);
+}
